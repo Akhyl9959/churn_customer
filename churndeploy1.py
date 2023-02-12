@@ -3,7 +3,7 @@ import streamlit as st
 import pickle
 
 
-model = pickle.load(open("C:/Users/USER/Downloads/churn_model2.pkl","rb")) #loading the created model
+model = pickle.load(open("churn_model2.pkl","rb")) #loading the created model
 
 
 st.set_page_config(page_title="CHURN MODEL APPLICATION") #tab title
